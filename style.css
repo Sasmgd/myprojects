@@ -1,0 +1,424 @@
+header{
+    background-color:rgb(239, 253,255);
+}
+
+.navbars{
+    margin-left: 40%;
+}
+#navbarNav{
+    margin-left: 6%;
+}
+#navbarNav ul li {
+   padding-left: 5%;
+}
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-left: 5%;
+
+}
+.header_bottom{
+    width: 100%;
+    height: auto;
+	display: grid;
+	grid-template-columns: 60fr 40fr ;
+
+}
+.header_bottom_left ul a{
+    writing-mode:vertical-rl;
+    color: black;
+    font-size: 12px;
+
+}
+.header_bottom_left ul li a i{
+    padding: 5px;
+    font-size: 15px;
+}
+.header_bottom_left ul li a:hover{
+    color: black;
+}
+.header_bottom_right img{
+    height:600px;
+    width: 600px;
+    object-fit: contain;
+    margin-top: -60px;
+    margin-right: 30px;
+}
+.header_bottom_left{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 13%;
+}
+.header_bottom_left_left{
+    margin-left: 10%;
+}
+
+.header_bottom_left_right{
+    margin-left: 30%;
+    margin-top: 7%;
+}
+.header_bottom_left_right h1{
+    font-size: 50px;
+}
+.header_bottom_left_right span{
+    font-size: 13px;
+    color: #575757;
+}
+.header_bottom_left_right span a{
+    color: black;
+}
+.section_top{
+    display: grid;
+	grid-template-columns: 8fr 92fr ;
+    margin-bottom: 7%;
+}
+.blues{
+    position:relative
+}
+.blue{position: relative;
+    margin-top: 205px;
+    background-color:rgb(64, 216, 253);
+    width: 250px;   
+    height: 400px;
+    margin-left: -55%;
+     border-radius: 50%;
+     z-index: 100;
+    
+}
+.blue2{
+    position: absolute;
+    background-color:rgb(129,106, 255);
+    width: 250px;   
+    height: 400px;
+    margin-left:-45%;
+     border-radius: 45%;
+     top:216px;
+}
+.section_top_right_top{
+    text-align: center;
+    margin-top: 114px;
+}
+.pclass{
+    color: rgb(160, 143, 255);
+}
+.section_top_right_bottom{
+    
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+   margin-top: 7%;
+}
+.section_top_right_bottom .card-text{
+    font-size: 14px;
+    color: #575757;
+    margin-top: 15px;
+}
+.card{
+    border: dotted rgb(64, 216, 253) 1px;
+}
+.card p i{
+    margin-top: 70px;
+    font-size: 60px;
+    color: rgb(64, 216, 253);
+}
+.card a i{
+    color: rgb(41, 39, 39);
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.about{
+    background-color: rgb(239, 253,255);
+}
+.about_us{
+  
+    display: grid;
+    grid-template-columns: 60fr 40fr ;
+}
+.about_us_left{
+    position: relative;
+}
+.about_us_left .imgs{
+    width: 400px;
+    height: 510px;
+    object-fit: contain;
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.about_us_left .img{
+    width: 385px;
+    height: 265px;
+    object-fit: contain;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    border: solid 15px rgb(255, 255, 255);
+}
+.about_us_right{
+margin-left: 5%;
+}
+.about_us_right .pclass{
+    margin-top: 170px;
+}
+.about_us_right .text{
+    color: #575757;
+    font-size: 14px;
+    margin-left: 2%;
+}
+.about_us_right ul li{
+    list-style: none;
+    font-size: 16px;
+
+}
+.about_us_right ul li i{
+    color: rgb(64, 216, 253);
+    margin-right: 2%;
+}
+.btn{
+  text-align: center;
+  width: 170px;
+  font-size: 16px;
+    background-color: rgb(64, 216, 253);
+  color: rgb(255, 255, 255);
+  border-radius:50px;
+  padding: 15px 20px 15px 20px;
+  
+}
+.about_card{
+    margin-top: 75px;
+    padding-bottom: 115px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about_card .cards {
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    font-size: 20px;
+    color: #7e7e7e;
+}
+.about_card .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_card .cards i{
+    font-size: 40px;
+    margin-right: 10px;
+}
+.about_card p{
+    margin-top: 20%;
+}
+.cards span{
+    font-size: 10px;
+}
+.our_mision .img{
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 300px;
+}
+.our_mision .img1{
+    background-image: url("https://st3.depositphotos.com/4218696/13984/i/1600/depositphotos_139847474-stock-photo-group-of-busy-business-people.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our_mision .img2{
+    background-image: url("https://helios-i.mashable.com/imagery/articles/01AwJCmH7lukMaKqBoTeuyz/hero-image.fill.size_1200x900.v1623373901.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our_mision .img3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnUlCxE8YdUx2FQbxTJ9efPizT478rOZ01Mg&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our_mision .img4{
+    background-image: url("https://thumbs.dreamstime.com/z/business-partners-teamwork-friendship-concept-multiethnic-diverse-group-colleagues-join-hands-together-creative-team-98099747.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our_mision .img span{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.img p{
+    margin-top: 230px;
+}
+.img p .exer{
+    font-size: 9px;
+}
+.img p a{
+    text-decoration: none;
+}
+.our_mision_bottom{
+    background-color:rgb(129,106, 255);
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 50% 50%;
+    color: white;
+    padding-bottom: 80px;
+    
+}
+.our_mision_bottom_topleft{
+    margin-left:40%;
+    margin-top: 20%;
+}
+.our_mision_bottom p{
+    font-size: 12px;
+}
+.our_mision_bottom span{
+    font-size: 14px;
+}
+.our_mision_bottom_topright{
+    margin-top: 30%;
+}
+.our_mision_bottom_bottomleft{
+    margin-left: 40%;
+}
+.our_mision_bottom_bottomleft{
+    margin-top:5% ;
+}
+.fun_facts{
+    display: grid;
+	grid-template-columns:13% 31% 43% 13%;
+}
+.fun_facts_middle_left{
+    margin-top: 180px;
+}
+.fun_facts_middle_left span{
+    color:rgb(129,106, 255);
+    font-size: 15px;
+}
+.fun_facts_middle_left p{
+    font-size: 14px;
+}
+.fun_facts_middle_right{
+    margin-top: 123px;
+    margin-left: 20px;
+    display: grid;
+	grid-template-columns: 48% 48%;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+.card i{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 65px;
+    color: rgb(64, 216, 253)
+}
+.card-body{
+    text-align: center;
+}
+.card-body .number{
+    font-weight: bold;
+    font-size: 20px;
+}
+.card-body .txt{
+    color: #575757;
+}
+.meet_our_team{
+    margin-top: 120px;
+    background-color: rgb(239, 253,255);
+    text-align: center;
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 20% 70% 10%;
+}
+.meet_our_team_middle p{
+    color: rgb(129,106, 255);
+    padding-top: 115px;
+    font-size: 14px;
+   
+}
+.meet_our_team_middle .cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.card .card-img-top{
+    height: 190px;
+    width: 220px;
+    margin-left: 10px;
+}
+.card{
+    margin-top: 25px;
+    background-color: rgb(239, 253,255);
+    border: none;
+}
+.meet_our_team_middle .cards .name{
+    font-weight: bold;
+    font-size: 20px;
+}
+.meet_our_team_middle .cards .txt{
+    font-size: 16px;
+    color: #575757;
+}
+.meet_our_team_middle .cards i{
+    font-size: 16px;
+    color: #575757;
+}
+.meet_our_team_left{
+    position: relative;
+}
+.meet_our_team_left .blue{
+    margin: 0px;
+    margin-top: 50%;
+    margin-left: -60%;
+}
+.meet_our_team_left .blue2{
+    margin: 0px;
+    top: 23%;
+    margin-left: -50%;
+}
+
+footer{
+    display: grid;
+	grid-template-rows: 80% 20% ;
+    background-color: #1e1f27;
+    color: white;
+}
+.footer_top{
+    display: grid;
+	grid-template-columns: 20% 80% 20% ;
+    padding-top:115px;
+    padding-bottom: 50px;
+}
+.footer_middle{
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer_middle p{
+ color:#7e7e7e;
+ font-size: 14px;
+}
+.footer_middle_left2 span{
+    font-size: 16px;
+    color:white;
+}
+.footer_middle_right a{
+    font-size: 14px;
+    color: #7e7e7e;
+}
+.footer_middle_right2 i{
+    font-size: 30px;
+    margin-left: 5px;
+}
+.footer_bottom{
+    text-align: center;
+    border-top: solid 1px #020202;
+    color: #575757;
+    font-size: 14px;
+}
